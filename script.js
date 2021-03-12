@@ -6,7 +6,7 @@ const fetchMealInfo = () => {
         .then(data => displayMealInfo(data))
         .catch(error => {
             const errorMsg = `
-            <h4>Name: No meal is found in the database....</h4>
+            <h4>Info: No meal is found in the database....</h4>
             `;
             document.getElementById('display-meal-details').innerHTML = errorMsg;
         });
