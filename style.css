@@ -1,0 +1,21 @@
+#display-meal-details{
+    border: 1px solid tomato;
+    border-radius: 10px;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+#meals-container{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+}
+.meal-container{
+    border: 1px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.meal-container img{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
